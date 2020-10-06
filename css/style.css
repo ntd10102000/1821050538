@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gabriela', serif;
+}
+.header {
+    text-align: center;
+    background-image: url("../imgs/header.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.section{
+    float:left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav{
+    float: left;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #81f0a3;
+    font-family: 'Playball', cursive;
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav li a{
+    float: left;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #81f0a3;
+    text-decoration: none;
+    margin-bottom: -3px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-bottom-color: #81f0a3;
+}
+.nav li a.active,.nav li a:hover{
+    border: 2px solid #81f0a3;
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 0 0;
+}
+.tab-content{
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 1080px;
+}
+.tab-content .tab{
+    float: left;
+    padding: 20px;
+    width: 1200px;
+}
+.tab-content .tab.active{
+    display: block;
+}
+.tab-content .cinema{
+    height: 200px;
+    width: 4800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 400ms;
+}
+.content{
+    background-image: url("../imgs/674906526.jpg");
+}
+#home img{
+    max-width: 100%;
+    margin-left: 250px;
+    position: relative;
+}
+.home_title{
+    position: absolute;
+    top: 200px;
+    left: 390px;
+    text-align: center;
+}
+.home_content h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(75, 67, 66);
+}
+.home_title p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(75, 67, 66);
+    margin-bottom: 50px;
+}
+.home_title a{
+    padding: 15px 40px;
+    border: 3px solid #81f0a3;
+    background: #363636;
+    font-family: 'Playball', cursive;
+    border-radius: 30px;
+    color: #c67ee7;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+.home_title a:hover{
+    border: 3px solid #c67ee7;
+    color: #81f0a3;
+}
+.service-title{
+    font-size: 30px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.service-title h2:hover{
+    color: #81f0a3;
+}
+.service{
+    width: 100%;
+    padding: 30px 50px;
+    color: #ffffff;
+    background: rgba(246,246,247,0.5);
+    height: 170px;
+    border-radius: 85px;
+}
+.service_item{
+    width: 33.33%;
+    float: left;
+}
+.service_item img{
+    max-width: 100%;
+    margin: 25px 0 !important;
+    float: left;
+}
+.service-contant{
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+}
+.service_item h2{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.service_item p{
+    font-size: 20px;
+    color: #363636;
+    line-height: 29px;
+}
+.service_item h2:hover{
+    color: #81f0a3;
+}
+.shop-title{
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    text-align: center;
+}
+.shop-title h2{
+    border-bottom: 3px solid #c67ee7;
+    width: 15%;
+    padding: 5px;
+}
+.shop-title h2:hover{
+    color: #81f0a3;
+}
+.shop_item{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+.shop_item img{
+    max-width: 100%;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+.shop_item a{
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.shop_item a:hover{
+    color: #81f0a3;
+}
+.shop_item p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Playball', cursive;
+    color: #fff;
+}
+.star i{
+    color: orange;
+    margin-top: 10px;
+}
+.product{
+    width: 100%;
+}
+.product_left{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.product_left img{
+    max-width: 100%;
+    border-radius: 35px;
+}
+.product_right{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.product_right h2{
+    font-size: 30px;
+    color: #ffffff;
+}
+.product_right h3{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Playball', cursive;
+    margin-top: 15px;
+}
+.product_right p{
+    color: #ffffff;
+    margin-top: 30px;
+    line-height: 29px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.product_right a{
+    padding: 15px 40px;
+    border: 3px solid #81f0a3;
+    background: #363636;
+    font-family: 'Playball', cursive;
+    border-radius: 5px;
+    color: #c67ee7;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+.product_right a i{margin-right: 10px;}
+.product_right a:hover{
+    border: 3px solid #c67ee7;
+    color: #81f0a3;
+}
+.product_right h2:hover{
+    color: #81f0a3;
+}
+.related{
+    float: left;
+    width: 100%;
+}
+.designer{
+    width: 100%;
+}
+.designer_left{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.designer_left img{
+    border-radius: 35px;
+    max-width: 100%;
+}
+.designer_right{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+}
+.designer_right h2{
+    font-size: 120px;
+    color: #ffffff;
+}
+.designer_right h2:hover{
+    color: #81f0a3;
+}
+.designer_right h2:hover p{
+    color: #363636;
+}
+.contact{
+    width: 100%;
+    float: left;
+}
+.contact_left{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.contact h3{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #c67ee7;
+    width: 60%;
+}
+.contact_left a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 100%;
+    float: left;
+}
+.contact_left a i{
+    margin-right: 25px;
+    font-size: 25px;
+}
+.contact_left a:hover{
+    color: #81f0a3;
+}
+.contact_right{
+    width: 50%;
+    float: left;
+    padding: 0 50px;
+}
+.footer{
+    width: 100%;
+    background-color: #363636;
+    padding: 25px 0;
+}
